@@ -10,7 +10,7 @@ twine upload dist/*
 
 setup(
     name='runtogether',
-    version='0.0.3.6',  # 项目版本
+    version='0.0.4.0',  # 项目版本
     author='小成',  # 项目作者
     author_email='499938136@qq.com',  # 作者email
     url='https://github.com/csy5621080/runtogether',  # 项目代码仓库

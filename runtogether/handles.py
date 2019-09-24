@@ -73,7 +73,7 @@ def proxy_socket(client, addr):
 
 class Referee(object):
 
-    def __init__(self, app, workers, host, port):
+    def __init__(self, app, workers=1, host='0.0.0.0', port=8899):
         '''
         :param app:     application 对象.
         :param workers: 工作进程数
